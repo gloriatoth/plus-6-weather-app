@@ -1,0 +1,98 @@
+h2 {
+  display: inline;
+}
+
+.container {
+  margin: 80px auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 55% !important;
+  }
+}
+.inputCity {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  border: solid 1px #99a799;
+  border-radius: 0.25rem;
+  padding-left: 10px;
+}
+
+.btn-primary {
+  background-color: #655d8a !important;
+  border-color: #655d8a !important;
+}
+
+.btn-outline-secondary:hover {
+  transition: none;
+  color: #6c757d !important;
+  background-color: transparent !important;
+}
+
+.rowToday {
+  margin: 82px 0 !important;
+}
+
+.iconToday {
+  font-size: 95px;
+  text-align: center;
+  margin: 0;
+}
+
+.mainLocation {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.statusToday {
+  margin-bottom: 0;
+}
+.celsiusToday {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.unites {
+  font-size: 16px;
+  position: absolute;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.celsius {
+  text-decoration: none;
+}
+
+.fahrenheit {
+  text-decoration: none;
+}
+
+.todayInfoDay {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+  margin-bottom: 0;
+}
+
+.todayInfo {
+  margin: 0;
+  line-height: 28px;
+}
+
+.dayNextDays {
+  margin-bottom: 5px;
+}
+
+.iconNextDays {
+  font-size: 32px;
+  margin: 0;
+}
+
+.celsiusNextDays {
+  color: #99a799;
+}
