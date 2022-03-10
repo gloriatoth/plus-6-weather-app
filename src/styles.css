@@ -96,3 +96,19 @@ h2 {
 .celsiusNextDays {
   color: #99a799;
 }
+
+.legal-text {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 70px;
+  color: #99a799;
+}
+
+.legal-text a {
+  color: #655d8a;
+  text-decoration: none;
+}
+
+.legal-text a:hover {
+  color: #ced4da;
+}
