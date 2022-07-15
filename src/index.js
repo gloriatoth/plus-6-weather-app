@@ -62,7 +62,7 @@ cityButton.addEventListener("submit", showCity);
 function showUserLocation(position) {
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
-  let apiKey = "5c67d9771dba3f2ffddccbc1dceb6a67";
+  let apiKey = "ac71006c966f3e75c79bbfe793d5eb1a";
   let apiSource = "https://api.openweathermap.org/data/2.5/weather?";
   let apiUnits = "metric";
   let apiUrl = `${apiSource}lat=${lat}&lon=${lon}&appid=${apiKey}&units=${apiUnits}`;
